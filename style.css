@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: .5s all ease-in-out;
+    color: rgb(27, 42, 56);
+    user-select: none;
+}
+
+body {
+    background: rgb(255, 215, 82);
+}
+
+.container {
+    max-width: 25em;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    background: rgb(249, 219, 98);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.weather {
+    height: 10.5em;
+    width: 10.5em;
+    display: block;
+    /* background: #eee; */
+    /* border: 10px solid #eee; */
+    border-radius: 50%;
+    margin: -8.75em auto 0 auto;
+}
+
+.planet {
+    width: 10.5em;
+    height: 10.5em;
+    border: .5em solid #eee;
+    background: #000;
+    border-radius: 50%;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.input {
+    position: relative;
+    padding: 2% 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: .5% 3%;
+    background: transparent;
+    border-radius: 25px;
+    border-bottom: 2px #eee solid;
+}
+
+span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding: 2%; */
+    margin: 2% 25%;
+    user-select: none;
+    z-index: -99;
+}
+input:focus~span,
+input:valid~span {
+    transform: translateY(-60%);
+    font-size: 0.7em;
+}
+
+button {
+    padding: .5em 1.5em;
+}
