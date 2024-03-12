@@ -26,7 +26,7 @@ The Weather App is a simple web application that allows users to check the curre
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/weather-app.git
+    git clone https://github.com/mellifluousguy/weather-app.git
     ```
 
 2. Open the `index.html` file in your web browser to run the application.
